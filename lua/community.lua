@@ -9,4 +9,7 @@ return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
   -- import/override with your plugins folder
+  { import = "astrocommunity.pack.rust" },
+  { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.pack.terraform" }
 }
